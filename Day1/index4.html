@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,4 +60,67 @@ body {
     </div>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Centering</title>
+    <style>
+        :root {
+    --color1: green;
+    --color2: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color1);
+    height: 100vh;
+    display: flex;
+
+}
+
+.mainDiv {
+    height: 40vh;
+    width: 40vw;
+    background-color: var(--color2);
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: var(--color2);
+    }
+
+    .mainDiv {
+        height: 30vh;
+        width: 80vw;
+        background-color: var(--color1);
+        font-size: 1.2rem;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="mainDiv">
+        <h2> </h2>
+    </div>
+</body>
+
+>>>>>>> 6dd3d88f95e9ab192f022aa968602fe332b0a1a1
 </html>
